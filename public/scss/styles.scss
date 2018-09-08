@@ -1,0 +1,21 @@
+@import "./reset/basic-reset";
+
+$grey: #000000;
+
+body {
+  background: $grey;
+
+  h1,
+  p {
+    text-align: center;
+    margin: 0 auto;
+  }
+  div {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+}
